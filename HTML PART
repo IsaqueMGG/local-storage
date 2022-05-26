@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Tarefas</h1>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./idex.html">Nova Tarefa</a></li>
+            <li><a href="./list.html">Lista de Tarefa</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h3>Tarefa</h3>
+        <input type="text" id="tarefa"
+        placeholder="Adicione uma tarefa">
+
+    <button type="button">
+        Adicionar
+    </button>
+
+
+    </div>
+
+    <footer>
+        <ul>
+            <li>SESI / SENAI</li>
+            <li>SC-401, 3730 - Saco Grande, Florianopolis</li>
+            <li>CEP - 88032-005</li>
+        </ul>
+    </footer>
+</body>
+</html>
